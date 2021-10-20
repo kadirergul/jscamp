@@ -1,27 +1,52 @@
-console.log("Hello World")
 
 
-let dolarDun = 9.20
-let dolarBugun = 9.30
+// let student = {id : 1, name : 'kadir'};
 
-{
-    let dolarDun = 9.10
-}
+// function save(puan=10,ogrenci) {
+//     console.log(ogrenci.name +" : "+ puan );
+// }
 
-console.log(dolarDun)
+// // save(undefined,student);
 
-const euroDun = 10.5
-//euroDun = 10
+// let students = ["kadir erg","şelale şengör","berke alya"];
 
-console.log(euroDun)
+// // console.log(students)
 
-let konutKredileri = ["Konut Kredisi", "Emlak Konut Kredisi","Kamu Konut Kredisi"]
+// let students2 = [student,{id:3, name:"demir"},"kastamonu", {city:"İstanbul"}]
 
-console.log("<ul>")
-for (let i = 0; i < konutKredileri.length; i++) {
-    console.log("<li>" + konutKredileri[i] + "</li>")
-}
-console.log("</ul>")
+// // console.log(students2)
+
+// //rest
+// let showProducts = function (id,...products) {
+//     console.log(id)
+//     console.log(products)
+// }
+
+// console.log(typeof showProducts)
+
+// showProducts(10,["btc","eth","avax"])
+
+// let points = [89,99,12,9,1,40]
+
+// console.log(Math.max(...points))
+
+// console.log(..."ABD","U",..."UKG",..."TR")
+
+//  let populations = [10000,20000,30000]
+//  let [small,medium,high,cokhigh,maximum] = populations
 
 
-console.log(konutKredileri)
+//  console.log(small)
+//  console.log(medium)
+//  console.log(high)
+
+let category = {id:1, name:"ekmek"}
+console.log(category.id)
+console.log(category["name"])
+
+let {id,name} = category
+console.log(id)
+console.log(name)
+
+
+//Redux
